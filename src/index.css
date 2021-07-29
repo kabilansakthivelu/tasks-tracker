@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: pink;
+}
+
+.header {
+  text-align: center;
+}
+
+.doneIcon {
+  color: green;
+  padding-right: 10px;
+}
+
+.taskDetails {
+  line-height: 1em;
+}
+.toAddNew {
+  text-align: center;
+  line-height: 40px;
+}
+.addTask {
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: pink;
+}
+
+.pendingHeader {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.noTasks {
+  text-align: center;
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 376px) {
+  .modal {
+    background: white;
+    margin: 6em 1em;
+    min-height: 10rem;
+    max-width: 25rem;
+    padding: 10px 15px;
+    position: relative;
+  }
+  .deleteIcon {
+    color: red;
+    position: absolute;
+    right: 2em;
+  }
+  .textArea {
+    width: 20em;
+    border: 3px solid pink;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (min-width: 377px) {
+  .modal {
+    background: white;
+    margin: 6em auto;
+    min-height: 10rem;
+    max-width: 25rem;
+    padding: 10px 15px;
+    position: relative;
+  }
+  .deleteIcon {
+    color: red;
+    position: absolute;
+    right: 2em;
+  }
+  .textArea {
+    width: 28em;
+    border: 3px solid pink;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  .modal {
+    background: white;
+    margin: 6em auto;
+    min-height: 10rem;
+    max-width: 40rem;
+    padding: 10px 15px;
+    position: relative;
+  }
+  .deleteIcon {
+    color: red;
+    position: absolute;
+    right: 3em;
+  }
+  .textArea {
+    width: 45em;
+    border: 3px solid pink;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
